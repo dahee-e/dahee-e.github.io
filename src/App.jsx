@@ -65,7 +65,7 @@ export default function App() {
 
             <div className="linkRow">
               <a className="chip" href="mailto:dahee@unist.ac.kr">Email</a>
-              <a className="chip" href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a>
+              <a className="chip" href="https://scholar.google.com/citations?hl=ko&user=k02ISOwAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
               <a className="chip" href="https://github.com/dahee-e" target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
