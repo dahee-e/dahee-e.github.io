@@ -133,10 +133,12 @@ export default function App() {
 
         <Section id="awards" title="🏆 Awards & Scholarship">
           <div className="rows">
+            <RowItem title="Korea Database Conference 2025 우수 논문상 동상" />
+            <RowItem title="Korea Database Conference 2025 우수 논문상 동상" />
             <RowItem title="이공분야 학술연구지원사업 (석사과정생연구장려금지원사업), 한국연구재단" meta="2024.07.01 ~ 2025.06.30" />
+            <RowItem title="여대학원생 공학연구팀제 지원사업 심화과정, 한국여성과학기술인육성재단" meta="2024.04.01 ~ 2024.10.31" />
             <RowItem title="Korea Database Conference 2024 우수 논문상 은상" />
             <RowItem title="Korea Database Conference 2024 우수 논문상 동상" />
-            <RowItem title="여대학원생 공학연구팀제 지원사업 심화과정, 한국여성과학기술인육성재단" meta="2024.04.01 ~ 2024.10.31" />
             <RowItem title="Government Scholarship, UNIST, Republic of Korea" meta="2023 Fall ~ Present" />
             <RowItem title="AI SW Fair Day, 3rd Prize, Dong-A University, Republic of Korea" meta="2021 Dec" />
             <RowItem title="Academic Advisor Scholarship, Dong-A University, Republic of Korea" meta="2021 Fall" />
