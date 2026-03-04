@@ -139,11 +139,11 @@ export default function App() {
                 “A Trie Framework for Efficient Core Computation in Hypergraphs”, <b>KDBC 2025 (WiP Track)</b>.
               </PubItem>
               <PubItem>
-                Doyeol Oh, Hyewon Kim, <b>Dahee Kim</b>, and Junghoon Kim
+                {'{'}Doyeol Oh, Hyewon Kim{'}'}, <b>Dahee Kim</b>, and Junghoon Kim
                 “위치 기반 소셜 네트워크에서 공간 근접 커뮤니티 탐지를 위한 엔트로피 가중 적응형 라벨 전파 알고리즘”, <b>KDBC 2025</b>.
               </PubItem>
               <PubItem>
-                Seungchan Choi, Taejoon Han, <b>Dahee Kim</b>, Hyewon Kim, Minseok Kim, and Junghoon Kim
+                {'{'}Seungchan Choi, Taejoon Han{'}'}, <b>Dahee Kim</b>, Hyewon Kim, Minseok Kim, and Junghoon Kim
                 “Weighted Structural Similarity for Density-Based Graph Clustering”, <b>KDBC 2025 (WiP Track)</b>.
               </PubItem>
               <PubItem>
@@ -155,7 +155,7 @@ export default function App() {
                 “NHSCAN: Node-based Hypergraph SCAN”, <b>KDBC 2025 (WiP Track)</b>.
               </PubItem>
               <PubItem>
-                <b>Dahee Kim</b>, Hyewon Kim, Taejoon Han, and Junghoon Kim,
+                {'{'}<b>Dahee Kim</b>, Hyewon Kim{'}'}, Taejoon Han, and Junghoon Kim,
                 “Community Detection Based on Ollivier-Ricci Curvature and Modularity”, <b>KDBC 2024</b>.
               </PubItem>
               <PubItem>
