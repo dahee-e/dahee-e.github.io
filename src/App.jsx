@@ -94,6 +94,10 @@ export default function App() {
         <Section id="publications" title="📑 Publications">
           <ol className="pubs">
             <PubItem>
+              <b>Dahee Kim</b>, Taejoon Han, Feng Kaiyu, Junghoon Kim, and Susik Yoon,
+              “LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks”, <b>SIGMOD 2026</b>.
+            </PubItem>
+            <PubItem>
               Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
               “Bugdeted Strong Community Search in Heterogeneou Graphs”, <b>SIGMOD 2026</b>.
             </PubItem>
@@ -144,8 +148,12 @@ export default function App() {
 
         <Section id="patents" title="💡 Patents">
           <div className="rows">
+            <RowItem title="엔트로피 가중 적응형 라벨 전파 기반의 공간 근접 커뮤니티 탐지 시스템 및 방법" meta="10-2026-0027653 · 2026.02.11" sub="김정훈, 김혜원, 오도열, 김다희" />
+            <RowItem title="하이브리드 방식에 기초한 대규모 네트워크 커뮤니티 탐지 방법 및 이를 지원하는 시스템" meta="10-2026-0009036 · 2026.01.16" sub="김정훈, 김다희, 손형민" />
+            <RowItem title="가중 구조 유사도에 기반한 네트워크 클러스터링 시스템 및 방법" meta="10-2026-0004498 · 2026.01.09" sub="김정훈, 한태준, 최승찬, 김다희, 김혜원" />
+            <RowItem title="하이퍼그래프에서 응집력 있는 부분 그래프를 탐색하는 방법 및 장치" meta="10-2025-0193293 · 2025.12.08" sub="김정훈, 김혜원, 김민석, 김다희" />
             <RowItem title="올리비아-리치 곡률과 모듈러리티 기반의 커뮤니티 탐지를 위한 방법 및 장치" meta="10-2025-0034070 · 2025.03.17" sub="김정훈, 김다희, 김혜원, 한태준" />
-            <RowItem title="연속 학습을 통한 네트워크 최소 코어-중심성을 이용한 유저 참여도 강화" meta="10-2025-0045472 · 2025.04.08" sub="김정훈, 김혜원, 김다희, 김송, 윤수식" />
+            <RowItem title="유저 참여도를 강화하기 위해 네트워크를 트레이닝하는 방법 및 장치" meta="10-2025-0045472 · 2025.04.08" sub="김정훈, 김혜원, 김다희, 김송, 윤수식" />
             <RowItem title="하이퍼 그래프의 서브 그래프 식별 방법 및 장치" meta="10-2025-0075876 · 2025.06.10" sub="김정훈, 김다희, 임성수, 정현지" />
             <RowItem title="하이퍼 그래프에서 응집력 있는 서브그래프 검출을 위한 데이터 분석 시스템 및 방법" meta="10-2025-0107601 · 2025.08.05" sub="김정훈, 김혜원, 신우철, 김다희, 정현지" />
           </div>
@@ -153,11 +161,12 @@ export default function App() {
 
         <Section id="teaching" title="✏️ Teaching Assistant">
           <div className="rows">
-            <RowItem title="LG 전자 LDC 3기 PBL, UNIST, Republic of Korea" meta="2025 July ~ 2025 August" />
+            <RowItem title="AI Novatus 아카데미아 8기 PBL (최우수상), UNIST, Republic of Korea" meta="2025 Sep. ~ 2025 Nov."/>
+            <RowItem title="LG 전자 LDC 3기 PBL, UNIST (최우수상), Republic of Korea" meta="2025 July ~ 2025 August"/>
             <RowItem title="Intro to Algorithm [CSE331], UNIST, Republic of Korea" meta="2025 Spring" />
             <RowItem title="Database System [CSE321], UNIST, Republic of Korea" meta="2024 Fall" />
             <RowItem title="Introduction to Data Mining [CSE304], UNIST, Republic of Korea" meta="2024 Spring" />
-            <RowItem title="COOP Biomarker Discovery, UNIST, Republic of Korea" meta="2023 Dec ~ 2024 Feb" />
+            <RowItem title="COOP Biomarker Discovery, UNIST, Republic of Korea" meta="2023 Dec. ~ 2024 Feb." />
             <RowItem title="Data Structure [CSE221], UNIST, Republic of Korea" meta="2023 Fall" />
           </div>
         </Section>
