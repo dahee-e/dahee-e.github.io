@@ -107,7 +107,7 @@ export default function App() {
             </PubItem>
             <PubItem>
               Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
-              “Bugdeted Strong Community Search in Heterogeneou Graphs”, <b>SIGMOD 2026</b>.
+              “Budgeted Strong Community Search in Heterogeneou Graphs”, <b>SIGMOD 2026</b>.
             </PubItem>
             <PubItem>
               Hyewon Kim, Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
