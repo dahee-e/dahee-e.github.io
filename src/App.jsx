@@ -102,12 +102,16 @@ export default function App() {
               “Uncovering High-Order Cohesive Structures: Efficient (k,g)-Core Computation and Decomposition in Hypergraphs”, <b>Knowledge-based Systems 2025</b>.
             </PubItem>
             <PubItem>
+              Song Kim, <b>Dahee Kim</b>, Taejoon Han, Junghoon Kim, Hyun  Ji Jeong, and Jungeun Kim,
+              “Efficient Locality-based Indexing for Cohesive Subgraphs Discovery in Hypergraph”, <b>EDBT 2026</b>.
+            </PubItem>
+            <PubItem>
               Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
               “Bugdeted Strong Community Search in Heterogeneou Graphs”, <b>SIGMOD 2026</b>.
             </PubItem>
             <PubItem>
               Hyewon Kim, Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
-              “When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core”, <b>CIKM 2025 (short)</b>.
+              “When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core”, <b>CIKM 2025 (short paper)</b>.
             </PubItem>
             <PubItem>
               Hyewon Kim, Woocheol Shin, <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
