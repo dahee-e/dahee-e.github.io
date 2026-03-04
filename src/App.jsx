@@ -90,13 +90,6 @@ export default function App() {
           </div>
         </section>
 
-        <Section id="about" title="About">
-          <p className="para">
-            I am a graduate researcher focusing on query-centric cohesive
-            structure discovery in graphs and hypergraphs, with interests in
-            scalable community search, robustness, and dynamic settings.
-          </p>
-        </Section>
 
         <Section id="publications" title="📑 Publications">
           <ol className="pubs">
