@@ -98,6 +98,10 @@ export default function App() {
               “LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks”, <b>SIGMOD 2026</b>.
             </PubItem>
             <PubItem>
+              <b>Dahee Kim</b>, Hyewon Kim, Song Kim, Minseok Kim, Junghoon Kim, Yeon-Chang Lee, and Sungsu Lim
+              “Uncovering High-Order Cohesive Structures: Efficient (k,g)-Core Computation and Decomposition in Hypergraphs”, <b>Knowledge-based Systems 2025</b>.
+            </PubItem>
+            <PubItem>
               Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
               “Bugdeted Strong Community Search in Heterogeneou Graphs”, <b>SIGMOD 2026</b>.
             </PubItem>
@@ -134,7 +138,7 @@ export default function App() {
         <Section id="awards" title="🏆 Awards & Scholarship">
           <div className="rows">
             <RowItem title="Korea Database Conference 2025 우수 논문상 동상" />
-            <RowItem title="Korea Database Conference 2025 우수 논문상 동상" />
+            <RowItem title="Korea Database Conference 2025 우수 포스터상" />
             <RowItem title="이공분야 학술연구지원사업 (석사과정생연구장려금지원사업), 한국연구재단" meta="2024.07.01 ~ 2025.06.30" />
             <RowItem title="여대학원생 공학연구팀제 지원사업 심화과정, 한국여성과학기술인육성재단" meta="2024.04.01 ~ 2024.10.31" />
             <RowItem title="Korea Database Conference 2024 우수 논문상 은상" />
