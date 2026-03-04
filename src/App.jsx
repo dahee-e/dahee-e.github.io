@@ -92,6 +92,7 @@ export default function App() {
 
 
         <Section id="publications" title="📑 Publications">
+          <h3 className="pubGroup">International</h3>
           <ol className="pubs">
             <PubItem>
               <b>Dahee Kim</b>, Taejoon Han, Feng Kaiyu, Junghoon Kim, and Susik Yoon,
@@ -118,14 +119,6 @@ export default function App() {
               “Beyond Trivial Edges: A Fractional Approach to Cohesive Subgraph Detection in Hypergraphs”, <b>Knowledge-based Systems 2025</b>.
             </PubItem>
             <PubItem>
-              <b>Dahee Kim</b>, Hyewon Kim, Taejoon Han, and Junghoon Kim,
-              “Community Detection Based on Ollivier-Ricci Curvature and Modularity”, <b>KDBC 2024</b>.
-            </PubItem>
-            <PubItem>
-              Hyewon Kim, <b>Dahee Kim</b>, Song Kim, Susik Yoon, and Junghoon Kim,
-              “Enhancing User Engagement through Network Coreness via Continual Learning”, <b>KDBC 2024</b>.
-            </PubItem>
-            <PubItem>
               <b>Dahee Kim</b>, Song Kim, Jeongseong Kim, Junghoon Kim, Kaiyu Feng, Sungsu Lim, and Jungeun Kim,
               “Experimental Analysis and Evaluation of Cohesive Subgraph Discovery”, <b>Information Sciences 2024</b>.
             </PubItem>
@@ -133,10 +126,22 @@ export default function App() {
               <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
               “Exploring Cohesive Subgraphs in Hypergraphs: The (k,g)-core Approach”, <b>CIKM 2023 (short paper)</b>.
             </PubItem>
-            <PubItem>
-              김다희, 김정훈, 임성수. “응집성을 가지는 서브그래프 식별 기술의 최신 연구 동향”, <b>전자공학회지</b>, 50(6), 18-30. (2023).
-            </PubItem>
+            
           </ol>
+          <h3 className="pubGroup">Domestic</h3>
+            <ol className="pubs">
+              <PubItem>
+                <b>Dahee Kim</b>, Hyewon Kim, Taejoon Han, and Junghoon Kim,
+                “Community Detection Based on Ollivier-Ricci Curvature and Modularity”, <b>KDBC 2024</b>.
+              </PubItem>
+              <PubItem>
+                Hyewon Kim, <b>Dahee Kim</b>, Song Kim, Susik Yoon, and Junghoon Kim,
+                “Enhancing User Engagement through Network Coreness via Continual Learning”, <b>KDBC 2024</b>.
+              </PubItem>
+              <PubItem>
+                <b>김다희</b>, 김정훈, 임성수. “응집성을 가지는 서브그래프 식별 기술의 최신 연구 동향”, <b>전자공학회지</b>, 50(6), 18-30. (2023).
+              </PubItem>
+            </ol>
         </Section>
 
         <Section id="awards" title="🏆 Awards & Scholarship">
