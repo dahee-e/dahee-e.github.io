@@ -145,7 +145,7 @@ export default function App() {
               <b>Dahee Kim</b>, Song Kim, Jeongseong Kim, Junghoon Kim, Kaiyu Feng, Sungsu Lim, and Jungeun Kim,
               “Experimental Analysis and Evaluation of Cohesive Subgraph Discovery”, <b>Information Sciences 2024</b>.
               <div className="paperLinks">
-                  <a href="linkinghub.elsevier.com/retrieve/pii/S0020025524005772" target="_blank" rel="noreferrer">Paper</a>
+                  <a href="https://www.sciencedirect.com/science/article/pii/S0020025524005772" target="_blank" rel="noreferrer">Paper</a>
                   <a href="CODE_LINK" target="_blank" rel="noreferrer">Code</a>
                </div>
             </PubItem>
