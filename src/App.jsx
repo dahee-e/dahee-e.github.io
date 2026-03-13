@@ -67,6 +67,7 @@ export default function App() {
               <a className="chip" href="mailto:dahee@unist.ac.kr">Email</a>
               <a className="chip" href="https://scholar.google.com/citations?hl=ko&user=k02ISOwAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
               <a className="chip" href="https://github.com/dahee-e" target="_blank" rel="noreferrer">GitHub</a>
+              <a className="chip" href="https://www.linkedin.com/in/dahee-kim-62a73427a/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
           </div>
 
