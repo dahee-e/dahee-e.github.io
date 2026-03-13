@@ -421,3 +421,18 @@ a:hover{ text-decoration: underline; }
   color: #111827;
   font-weight: 500;
 }
+
+.paperLinks {
+  margin-top: 6px;
+}
+
+.paperLinks a {
+  margin-right: 12px;
+  font-size: 14px;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.paperLinks a:hover {
+  text-decoration: underline;
+}

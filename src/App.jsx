@@ -98,34 +98,64 @@ export default function App() {
             <PubItem>
               <b>Dahee Kim</b>, Taejoon Han, Feng Kaiyu, Junghoon Kim, and Susik Yoon,
               “LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks”, <b>SIGMOD 2026</b>.
+              <div className="paperLinks">
+                <a href="https://github.com/dahee-e/LMSC" target="_blank" rel="noreferrer">Code</a>
+              </div>
             </PubItem>
             <PubItem>
               <b>Dahee Kim</b>, Hyewon Kim, Song Kim, Minseok Kim, Junghoon Kim, Yeon-Chang Lee, and Sungsu Lim
               “Uncovering High-Order Cohesive Structures: Efficient (k,g)-Core Computation and Decomposition in Hypergraphs”, <b>Knowledge-based Systems 2025</b>.
+                <div className="paperLinks">
+                <a href="https://www.sciencedirect.com/science/article/pii/S0950705125022294?via%3Dihub" target="_blank" rel="noreferrer">Paper</a>
+                <a href="https://github.com/dahee-e/kgcore_full" target="_blank" rel="noreferrer">Code</a>
+              </div>
             </PubItem>
             <PubItem>
               Song Kim, <b>Dahee Kim</b>, Taejoon Han, Junghoon Kim, Hyun  Ji Jeong, and Jungeun Kim,
               “Efficient Locality-based Indexing for Cohesive Subgraphs Discovery in Hypergraph”, <b>EDBT 2026</b>.
+                <div className="paperLinks">
+                <a href="https://www.openproceedings.org/2026/conf/edbt/paper-61.pdf" target="_blank" rel="noreferrer">Paper</a>
+                <a href="CODE_LINK" target="_blank" rel="noreferrer">Code</a>
+              </div>
             </PubItem>
             <PubItem>
               Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
               “Budgeted Strong Community Search in Heterogeneou Graphs”, <b>SIGMOD 2026</b>.
+                <div className="paperLinks">
+                <a href="https://dl.acm.org/doi/10.1145/3769768" target="_blank" rel="noreferrer">Paper</a>
+              </div>
             </PubItem>
             <PubItem>
               Hyewon Kim, Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
               “When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core”, <b>CIKM 2025 (short paper)</b>.
+                <div className="paperLinks">
+                <a href="https://dl.acm.org/doi/10.1145/3746252.3760845" target="_blank" rel="noreferrer">Paper</a>
+                <a href="CODE_LINK" target="_blank" rel="noreferrer">Code</a>
+              </div>
             </PubItem>
             <PubItem>
               Hyewon Kim, Woocheol Shin, <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
               “Beyond Trivial Edges: A Fractional Approach to Cohesive Subgraph Detection in Hypergraphs”, <b>Knowledge-based Systems 2025</b>.
+                <div className="paperLinks">
+                <a href="https://linkinghub.elsevier.com/retrieve/pii/S0950705125005180" target="_blank" rel="noreferrer">Paper</a>
+                <a href="CODE_LINK" target="_blank" rel="noreferrer">Code</a>
+              </div>
             </PubItem>
             <PubItem>
               <b>Dahee Kim</b>, Song Kim, Jeongseong Kim, Junghoon Kim, Kaiyu Feng, Sungsu Lim, and Jungeun Kim,
               “Experimental Analysis and Evaluation of Cohesive Subgraph Discovery”, <b>Information Sciences 2024</b>.
+              <div className="paperLinks">
+                  <a href="linkinghub.elsevier.com/retrieve/pii/S0020025524005772" target="_blank" rel="noreferrer">Paper</a>
+                  <a href="CODE_LINK" target="_blank" rel="noreferrer">Code</a>
+               </div>
             </PubItem>
             <PubItem>
               <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
               “Exploring Cohesive Subgraphs in Hypergraphs: The (k,g)-core Approach”, <b>CIKM 2023 (short paper)</b>.
+                <div className="paperLinks">
+                  <a href="https://dl.acm.org/doi/10.1145/3583780.3615275" target="_blank" rel="noreferrer">Paper</a>
+                  <a href="CODE_LINK" target="_blank" rel="noreferrer">Code</a>
+               </div>
             </PubItem>
             
           </ol>
@@ -165,6 +195,9 @@ export default function App() {
               </PubItem>
               <PubItem>
                 <b>김다희</b>, 김정훈, 임성수. “응집성을 가지는 서브그래프 식별 기술의 최신 연구 동향”, <b>전자공학회지</b>, 50(6), 18-30. (2023).
+                <div className="paperLinks">
+                <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11438469" target="_blank" rel="noreferrer">Paper</a>
+              </div>
               </PubItem>
             </ol>
         </Section>
