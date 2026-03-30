@@ -250,6 +250,8 @@ export default function App() {
         <Section id="activities" title="🧐 Academic Activities">
           <div className="rows">
             <RowItem title="Reviewer, Bigcomp" meta="2025" />
+            <RowItem title="PC member, CIKM (Applied Research Track)" meta="2025" />
+            <RowItem title="PC member, CIKM" meta="2026" />
           </div>
         </Section>
 
