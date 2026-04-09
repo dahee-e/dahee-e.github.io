@@ -99,6 +99,7 @@ export default function App() {
               <b>Dahee Kim</b>, Taejoon Han, Feng Kaiyu, Junghoon Kim, and Susik Yoon,
               “LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks”, <b>SIGMOD 2026</b>.
               <div className="paperLinks">
+                <a href="https://dl.acm.org/doi/10.1145/3786666" target="_blank" rel="noreferrer">[Paper]</a>
                 <a href="https://github.com/dahee-e/LMSC" target="_blank" rel="noreferrer">[Code]</a>
               </div>
             </PubItem>
@@ -224,6 +225,7 @@ export default function App() {
 
         <Section id="patents" title="💡 Patents">
           <div className="rows">
+            <RowItem title="접두사 트리에 기초하여 하이퍼그래프에서 코어를 식별하기 위한 방법 및 전자 장치" meta="10-2026-0048905 · 2026.03.18" sub="김정훈, 김다희" />
             <RowItem title="엔트로피 가중 적응형 라벨 전파 기반의 공간 근접 커뮤니티 탐지 시스템 및 방법" meta="10-2026-0027653 · 2026.02.11" sub="김정훈, 김혜원, 오도열, 김다희" />
             <RowItem title="하이브리드 방식에 기초한 대규모 네트워크 커뮤니티 탐지 방법 및 이를 지원하는 시스템" meta="10-2026-0009036 · 2026.01.16" sub="김정훈, 김다희, 손형민" />
             <RowItem title="가중 구조 유사도에 기반한 네트워크 클러스터링 시스템 및 방법" meta="10-2026-0004498 · 2026.01.09" sub="김정훈, 한태준, 최승찬, 김다희, 김혜원" />
@@ -250,6 +252,7 @@ export default function App() {
         <Section id="activities" title="🧐 Academic Activities">
           <div className="rows">
             <RowItem title="Reviewer, Bigcomp" meta="2025" />
+            <RowItem title="Reviewer, WWW Journal" meta="2026" />
             <RowItem title="PC member, CIKM (Applied Research Track)" meta="2025" />
             <RowItem title="PC member, CIKM" meta="2026" />
           </div>
