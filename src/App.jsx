@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./styles.css";
 import profile from "./assets/profile.jpg";
 
@@ -26,6 +27,8 @@ const RowItem = ({ title, meta, sub }) => (
 const PubItem = ({ children }) => <li className="pubItem">{children}</li>;
 
 export default function App() {
+  const [lang, setLang] = useState("en");
+
   return (
     <div className="page">
       <header className="topbar">
@@ -40,6 +43,12 @@ export default function App() {
           <nav className="nav">
             <a className="navButton" href="#about">About</a>
             <a className="navButton" href="#publications">Publications</a>
+            <button
+              className="langToggle"
+              onClick={() => setLang(lang === "en" ? "ko" : "en")}
+            >
+              {lang === "en" ? "KO" : "EN"}
+            </button>
           </nav>
         </div>
       </header>
@@ -223,7 +232,7 @@ export default function App() {
           </div>
         </Section>
 
-        <Section id="patents" title="💡 Patents">
+        {lang === "ko" && <Section id="patents" title="💡 Patents">
           <div className="rows">
             <RowItem title="접두사 트리에 기초하여 하이퍼그래프에서 코어를 식별하기 위한 방법 및 전자 장치" meta="10-2026-0048905 · 2026.03.18" sub="김정훈, 김다희" />
             <RowItem title="엔트로피 가중 적응형 라벨 전파 기반의 공간 근접 커뮤니티 탐지 시스템 및 방법" meta="10-2026-0027653 · 2026.02.11" sub="김정훈, 김혜원, 오도열, 김다희" />
@@ -235,7 +244,7 @@ export default function App() {
             <RowItem title="하이퍼 그래프의 서브 그래프 식별 방법 및 장치" meta="10-2025-0075876 · 2025.06.10" sub="김정훈, 김다희, 임성수, 정현지" />
             <RowItem title="하이퍼 그래프에서 응집력 있는 서브그래프 검출을 위한 데이터 분석 시스템 및 방법" meta="10-2025-0107601 · 2025.08.05" sub="김정훈, 김혜원, 신우철, 김다희, 정현지" />
           </div>
-        </Section>
+        </Section>}
 
         <Section id="teaching" title="✏️ Teaching Assistant">
           <div className="rows">
