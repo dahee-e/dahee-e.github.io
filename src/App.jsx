@@ -26,6 +26,254 @@ const RowItem = ({ title, meta, sub }) => (
 
 const PubItem = ({ children }) => <li className="pubItem">{children}</li>;
 
+const PublicationsEN = () => (
+  <>
+    <h3 className="pubGroup">International</h3>
+    <ol className="pubs">
+      <PubItem>
+        <b>Dahee Kim</b>, Taejoon Han, Feng Kaiyu, Junghoon Kim, and Susik Yoon,
+        "LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks", <b>SIGMOD 2026</b>.
+        <div className="paperLinks">
+          <a href="https://dl.acm.org/doi/10.1145/3786666" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/dahee-e/LMSC" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        <b>Dahee Kim</b>, Hyewon Kim, Song Kim, Minseok Kim, Junghoon Kim, Yeon-Chang Lee, and Sungsu Lim
+        "Uncovering High-Order Cohesive Structures: Efficient (k,g)-Core Computation and Decomposition in Hypergraphs", <b>Knowledge-based Systems 2025</b>.
+        <div className="paperLinks">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0950705125022294?via%3Dihub" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/dahee-e/kgcore_full" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Song Kim, <b>Dahee Kim</b>, Taejoon Han, Junghoon Kim, Hyun Ji Jeong, and Jungeun Kim,
+        "Efficient Locality-based Indexing for Cohesive Subgraphs Discovery in Hypergraph", <b>EDBT 2026</b>.
+        <div className="paperLinks">
+          <a href="https://www.openproceedings.org/2026/conf/edbt/paper-61.pdf" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/Song1940/kg_decomposition_index" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
+        "Budgeted Strong Community Search in Heterogeneou Graphs", <b>SIGMOD 2026</b>.
+        <div className="paperLinks">
+          <a href="https://dl.acm.org/doi/10.1145/3769768" target="_blank" rel="noreferrer">[Paper]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Hyewon Kim, Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
+        "When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core", <b>CIKM 2025 (short paper)</b>.
+        <div className="paperLinks">
+          <a href="https://dl.acm.org/doi/10.1145/3746252.3760845" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/hwhwkim7/ks-core" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Hyewon Kim, Woocheol Shin, <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
+        "Beyond Trivial Edges: A Fractional Approach to Cohesive Subgraph Detection in Hypergraphs", <b>Knowledge-based Systems 2025</b>.
+        <div className="paperLinks">
+          <a href="https://linkinghub.elsevier.com/retrieve/pii/S0950705125005180" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/hwhwkim7/kgpcore" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        <b>Dahee Kim</b>, Song Kim, Jeongseong Kim, Junghoon Kim, Kaiyu Feng, Sungsu Lim, and Jungeun Kim,
+        "Experimental Analysis and Evaluation of Cohesive Subgraph Discovery", <b>Information Sciences 2024</b>.
+        <div className="paperLinks">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0020025524005772" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/dahee-e/CSDJ" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
+        "Exploring Cohesive Subgraphs in Hypergraphs: The (k,g)-core Approach", <b>CIKM 2023 (short paper)</b>.
+        <div className="paperLinks">
+          <a href="https://dl.acm.org/doi/10.1145/3583780.3615275" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/dahee-e/kgcore" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+    </ol>
+    <h3 className="pubGroup">Domestic</h3>
+    <ol className="pubs">
+      <PubItem>
+        Hyeongmin Son, <b>Dahee Kim*</b>, and Junghoon Kim
+        "LLAMA: Leiden-LPA Approach for Massive community Analysis", <b>Korean DataBase Conference 2025</b>.
+      </PubItem>
+      <PubItem>
+        <b>Dahee Kim</b>, Minseok Kim, Hyeongmin Son and Junghoon Kim
+        "A Trie Framework for Efficient Core Computation in Hypergraphs", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
+      </PubItem>
+      <PubItem>
+        {'{'}Doyeol Oh, Hyewon Kim{'}'}, <b>Dahee Kim</b>, and Junghoon Kim
+        "Entropy-Guided Adaptive Label Propagation for Location-Aware Graph Clustering", <b>Korean DataBase Conference 2025</b>.
+      </PubItem>
+      <PubItem>
+        {'{'}Seungchan Choi, Taejoon Han{'}'}, <b>Dahee Kim</b>, Hyewon Kim, Minseok Kim, and Junghoon Kim
+        "Weighted Structural Similarity for Density-Based Graph Clustering", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
+      </PubItem>
+      <PubItem>
+        Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim
+        "Decay-Driven Analysis of Hypergraph Cores: Linking Engagement with Cohesion", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
+      </PubItem>
+      <PubItem>
+        Taejoon Han, Seungchan Choi, Minseok Kim, Hyewon Kim, <b>Dahee Kim</b> and Junghoon Kim
+        "NHSCAN: Node-based Hypergraph SCAN", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
+      </PubItem>
+      <PubItem>
+        {'{'}<b>Dahee Kim</b>, Hyewon Kim{'}'}, Taejoon Han, and Junghoon Kim,
+        "Community Detection Based on Ollivier-Ricci Curvature and Modularity", <b>Korean DataBase Conference 2024</b>.
+        <div className="paperLinks">
+          <a href="https://github.com/dahee-e/CMS_CD" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Hyewon Kim, <b>Dahee Kim</b>, Song Kim, Susik Yoon, and Junghoon Kim,
+        "Enhancing User Engagement through Network Coreness via Continual Learning", <b>Korean DataBase Conference 2024</b>.
+      </PubItem>
+    </ol>
+  </>
+);
+
+const PublicationsKO = () => (
+  <>
+    <h3 className="pubGroup">International</h3>
+    <ol className="pubs">
+      <PubItem>
+        <b>Dahee Kim</b>, Taejoon Han, Feng Kaiyu, Junghoon Kim, and Susik Yoon,
+        "LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks", <b>SIGMOD 2026</b>.
+        <div className="paperLinks">
+          <a href="https://dl.acm.org/doi/10.1145/3786666" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/dahee-e/LMSC" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        <b>Dahee Kim</b>, Hyewon Kim, Song Kim, Minseok Kim, Junghoon Kim, Yeon-Chang Lee, and Sungsu Lim
+        "Uncovering High-Order Cohesive Structures: Efficient (k,g)-Core Computation and Decomposition in Hypergraphs", <b>Knowledge-based Systems 2025</b>.
+        <div className="paperLinks">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0950705125022294?via%3Dihub" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/dahee-e/kgcore_full" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Song Kim, <b>Dahee Kim</b>, Taejoon Han, Junghoon Kim, Hyun Ji Jeong, and Jungeun Kim,
+        "Efficient Locality-based Indexing for Cohesive Subgraphs Discovery in Hypergraph", <b>EDBT 2026</b>.
+        <div className="paperLinks">
+          <a href="https://www.openproceedings.org/2026/conf/edbt/paper-61.pdf" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/Song1940/kg_decomposition_index" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
+        "Budgeted Strong Community Search in Heterogeneou Graphs", <b>SIGMOD 2026</b>.
+        <div className="paperLinks">
+          <a href="https://dl.acm.org/doi/10.1145/3769768" target="_blank" rel="noreferrer">[Paper]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Hyewon Kim, Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
+        "When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core", <b>CIKM 2025 (short paper)</b>.
+        <div className="paperLinks">
+          <a href="https://dl.acm.org/doi/10.1145/3746252.3760845" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/hwhwkim7/ks-core" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Hyewon Kim, Woocheol Shin, <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
+        "Beyond Trivial Edges: A Fractional Approach to Cohesive Subgraph Detection in Hypergraphs", <b>Knowledge-based Systems 2025</b>.
+        <div className="paperLinks">
+          <a href="https://linkinghub.elsevier.com/retrieve/pii/S0950705125005180" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/hwhwkim7/kgpcore" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        <b>Dahee Kim</b>, Song Kim, Jeongseong Kim, Junghoon Kim, Kaiyu Feng, Sungsu Lim, and Jungeun Kim,
+        "Experimental Analysis and Evaluation of Cohesive Subgraph Discovery", <b>Information Sciences 2024</b>.
+        <div className="paperLinks">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0020025524005772" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/dahee-e/CSDJ" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
+        "Exploring Cohesive Subgraphs in Hypergraphs: The (k,g)-core Approach", <b>CIKM 2023 (short paper)</b>.
+        <div className="paperLinks">
+          <a href="https://dl.acm.org/doi/10.1145/3583780.3615275" target="_blank" rel="noreferrer">[Paper]</a>
+          <a href="https://github.com/dahee-e/kgcore" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+    </ol>
+    <h3 className="pubGroup">Domestic</h3>
+    <ol className="pubs">
+      <PubItem>
+        Hyeongmin Son, <b>Dahee Kim*</b>, and Junghoon Kim
+        "LLAMA: Leiden-LPA 기반 대규모 커뮤니티 분석", <b>Korean DataBase Conference 2025</b>.
+      </PubItem>
+      <PubItem>
+        <b>Dahee Kim</b>, Minseok Kim, Hyeongmin Son and Junghoon Kim
+        "A Trie Framework for Efficient Core Computation in Hypergraphs", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
+      </PubItem>
+      <PubItem>
+        {'{'}Doyeol Oh, Hyewon Kim{'}'}, <b>Dahee Kim</b>, and Junghoon Kim
+        "위치 기반 소셜 네트워크에서 공간 근접 커뮤니티 탐지를 위한 엔트로피 가중 적응형 라벨 전파 알고리즘", <b>Korean DataBase Conference 2025</b>.
+      </PubItem>
+      <PubItem>
+        {'{'}Seungchan Choi, Taejoon Han{'}'}, <b>Dahee Kim</b>, Hyewon Kim, Minseok Kim, and Junghoon Kim
+        "Weighted Structural Similarity for Density-Based Graph Clustering", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
+      </PubItem>
+      <PubItem>
+        Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim
+        "Decay-Driven Analysis of Hypergraph Cores: Linking Engagement with Cohesion", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
+      </PubItem>
+      <PubItem>
+        Taejoon Han, Seungchan Choi, Minseok Kim, Hyewon Kim, <b>Dahee Kim</b> and Junghoon Kim
+        "NHSCAN: Node-based Hypergraph SCAN", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
+      </PubItem>
+      <PubItem>
+        {'{'}<b>Dahee Kim</b>, Hyewon Kim{'}'}, Taejoon Han, and Junghoon Kim,
+        "Community Detection Based on Ollivier-Ricci Curvature and Modularity", <b>Korean DataBase Conference 2024</b>.
+        <div className="paperLinks">
+          <a href="https://github.com/dahee-e/CMS_CD" target="_blank" rel="noreferrer">[Code]</a>
+        </div>
+      </PubItem>
+      <PubItem>
+        Hyewon Kim, <b>Dahee Kim</b>, Song Kim, Susik Yoon, and Junghoon Kim,
+        "Enhancing User Engagement through Network Coreness via Continual Learning", <b>Korean DataBase Conference 2024</b>.
+      </PubItem>
+      <PubItem>
+        <b>김다희</b>, 김정훈, 임성수. "응집성을 가지는 서브그래프 식별 기술의 최신 연구 동향", <b>전자공학회지</b>, 50(6), 18-30. (2023).
+        <div className="paperLinks">
+          <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11438469" target="_blank" rel="noreferrer">[Paper]</a>
+        </div>
+      </PubItem>
+    </ol>
+  </>
+);
+
+const TeachingEN = () => (
+  <div className="rows">
+    <RowItem title="AI Novatus Academia 8th PBL (Excellence Award), UNIST, Republic of Korea" meta="2025 Sep. ~ 2025 Nov." />
+    <RowItem title="LG Electronics LDC 3rd PBL, UNIST (Excellence Award), Republic of Korea" meta="2025 July ~ 2025 August" />
+    <RowItem title="Intro to Algorithm [CSE331], UNIST, Republic of Korea" meta="2025 Spring" />
+    <RowItem title="Database System [CSE321], UNIST, Republic of Korea" meta="2024 Fall" />
+    <RowItem title="Introduction to Data Mining [CSE304], UNIST, Republic of Korea" meta="2024 Spring" />
+    <RowItem title="COOP Biomarker Discovery, UNIST, Republic of Korea" meta="2023 Dec. ~ 2024 Feb." />
+    <RowItem title="Data Structure [CSE221], UNIST, Republic of Korea" meta="2023 Fall" />
+  </div>
+);
+
+const TeachingKO = () => (
+  <div className="rows">
+    <RowItem title="AI Novatus 아카데미아 8기 PBL (최우수상), UNIST, Republic of Korea" meta="2025 Sep. ~ 2025 Nov." />
+    <RowItem title="LG 전자 LDC 3기 PBL, UNIST (최우수상), Republic of Korea" meta="2025 July ~ 2025 August" />
+    <RowItem title="Intro to Algorithm [CSE331], UNIST, Republic of Korea" meta="2025 Spring" />
+    <RowItem title="Database System [CSE321], UNIST, Republic of Korea" meta="2024 Fall" />
+    <RowItem title="Introduction to Data Mining [CSE304], UNIST, Republic of Korea" meta="2024 Spring" />
+    <RowItem title="COOP Biomarker Discovery, UNIST, Republic of Korea" meta="2023 Dec. ~ 2024 Feb." />
+    <RowItem title="Data Structure [CSE221], UNIST, Republic of Korea" meta="2023 Fall" />
+  </div>
+);
+
 export default function App() {
   const [lang, setLang] = useState("en");
 
@@ -102,117 +350,7 @@ export default function App() {
 
 
         <Section id="publications" title="📑 Publications">
-          <h3 className="pubGroup">International</h3>
-          <ol className="pubs">
-            <PubItem>
-              <b>Dahee Kim</b>, Taejoon Han, Feng Kaiyu, Junghoon Kim, and Susik Yoon,
-              “LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks”, <b>SIGMOD 2026</b>.
-              <div className="paperLinks">
-                <a href="https://dl.acm.org/doi/10.1145/3786666" target="_blank" rel="noreferrer">[Paper]</a>
-                <a href="https://github.com/dahee-e/LMSC" target="_blank" rel="noreferrer">[Code]</a>
-              </div>
-            </PubItem>
-            <PubItem>
-              <b>Dahee Kim</b>, Hyewon Kim, Song Kim, Minseok Kim, Junghoon Kim, Yeon-Chang Lee, and Sungsu Lim
-              “Uncovering High-Order Cohesive Structures: Efficient (k,g)-Core Computation and Decomposition in Hypergraphs”, <b>Knowledge-based Systems 2025</b>.
-                <div className="paperLinks">
-                <a href="https://www.sciencedirect.com/science/article/pii/S0950705125022294?via%3Dihub" target="_blank" rel="noreferrer">[Paper]</a>
-                <a href="https://github.com/dahee-e/kgcore_full" target="_blank" rel="noreferrer">[Code]</a>
-              </div>
-            </PubItem>
-            <PubItem>
-              Song Kim, <b>Dahee Kim</b>, Taejoon Han, Junghoon Kim, Hyun  Ji Jeong, and Jungeun Kim,
-              “Efficient Locality-based Indexing for Cohesive Subgraphs Discovery in Hypergraph”, <b>EDBT 2026</b>.
-                <div className="paperLinks">
-                <a href="https://www.openproceedings.org/2026/conf/edbt/paper-61.pdf" target="_blank" rel="noreferrer">[Paper]</a>
-                <a href="https://github.com/Song1940/kg_decomposition_index" target="_blank" rel="noreferrer">[Code]</a>
-              </div>
-            </PubItem>
-            <PubItem>
-              Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
-              “Budgeted Strong Community Search in Heterogeneou Graphs”, <b>SIGMOD 2026</b>.
-                <div className="paperLinks">
-                <a href="https://dl.acm.org/doi/10.1145/3769768" target="_blank" rel="noreferrer">[Paper]</a>
-              </div>
-            </PubItem>
-            <PubItem>
-              Hyewon Kim, Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
-              “When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core”, <b>CIKM 2025 (short paper)</b>.
-                <div className="paperLinks">
-                <a href="https://dl.acm.org/doi/10.1145/3746252.3760845" target="_blank" rel="noreferrer">[Paper]</a>
-                <a href="https://github.com/hwhwkim7/ks-core" target="_blank" rel="noreferrer">[Code]</a>
-              </div>
-            </PubItem>
-            <PubItem>
-              Hyewon Kim, Woocheol Shin, <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
-              “Beyond Trivial Edges: A Fractional Approach to Cohesive Subgraph Detection in Hypergraphs”, <b>Knowledge-based Systems 2025</b>.
-                <div className="paperLinks">
-                <a href="https://linkinghub.elsevier.com/retrieve/pii/S0950705125005180" target="_blank" rel="noreferrer">[Paper]</a>
-                <a href="https://github.com/hwhwkim7/kgpcore" target="_blank" rel="noreferrer">[Code]</a>
-              </div>
-            </PubItem>
-            <PubItem>
-              <b>Dahee Kim</b>, Song Kim, Jeongseong Kim, Junghoon Kim, Kaiyu Feng, Sungsu Lim, and Jungeun Kim,
-              “Experimental Analysis and Evaluation of Cohesive Subgraph Discovery”, <b>Information Sciences 2024</b>.
-              <div className="paperLinks">
-                  <a href="https://www.sciencedirect.com/science/article/pii/S0020025524005772" target="_blank" rel="noreferrer">[Paper]</a>
-                  <a href="https://github.com/dahee-e/CSDJ" target="_blank" rel="noreferrer">[Code]</a>
-               </div>
-            </PubItem>
-            <PubItem>
-              <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
-              “Exploring Cohesive Subgraphs in Hypergraphs: The (k,g)-core Approach”, <b>CIKM 2023 (short paper)</b>.
-                <div className="paperLinks">
-                  <a href="https://dl.acm.org/doi/10.1145/3583780.3615275" target="_blank" rel="noreferrer">[Paper]</a>
-                  <a href="https://github.com/dahee-e/kgcore" target="_blank" rel="noreferrer">[Code]</a>
-               </div>
-            </PubItem>
-            
-          </ol>
-          <h3 className="pubGroup">Domestic</h3>
-            <ol className="pubs">
-              <PubItem>
-                Hyeongmin Son,  <b>Dahee Kim*</b>, and Junghoon Kim
-                “LLAMA: Leiden-LPA 기반 대규모 커뮤니티 분석”, <b>KDBC 2025</b>.
-              </PubItem>
-              <PubItem>
-                <b>Dahee Kim</b>, Minseok Kim, Hyeongmin Son and Junghoon Kim
-                “A Trie Framework for Efficient Core Computation in Hypergraphs”, <b>KDBC 2025 (WiP Track)</b>.
-              </PubItem>
-              <PubItem>
-                {'{'}Doyeol Oh, Hyewon Kim{'}'}, <b>Dahee Kim</b>, and Junghoon Kim
-                “위치 기반 소셜 네트워크에서 공간 근접 커뮤니티 탐지를 위한 엔트로피 가중 적응형 라벨 전파 알고리즘”, <b>KDBC 2025</b>.
-              </PubItem>
-              <PubItem>
-                {'{'}Seungchan Choi, Taejoon Han{'}'}, <b>Dahee Kim</b>, Hyewon Kim, Minseok Kim, and Junghoon Kim
-                “Weighted Structural Similarity for Density-Based Graph Clustering”, <b>KDBC 2025 (WiP Track)</b>.
-              </PubItem>
-              <PubItem>
-                Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim
-                “Decay-Driven Analysis of Hypergraph Cores: Linking Engagement with Cohesion”, <b>KDBC 2025 (WiP Track)</b>.
-              </PubItem>
-              <PubItem>
-                Taejoon Han, Seungchan Choi, Minseok Kim, Hyewon Kim, <b>Dahee Kim</b> and Junghoon Kim
-                “NHSCAN: Node-based Hypergraph SCAN”, <b>KDBC 2025 (WiP Track)</b>.
-              </PubItem>
-              <PubItem>
-                {'{'}<b>Dahee Kim</b>, Hyewon Kim{'}'}, Taejoon Han, and Junghoon Kim,
-                “Community Detection Based on Ollivier-Ricci Curvature and Modularity”, <b>KDBC 2024</b>.
-                <div className="paperLinks">
-                <a href="https://github.com/dahee-e/CMS_CD" target="_blank" rel="noreferrer">[Code]</a>
-                </div>
-              </PubItem>
-              <PubItem>
-                Hyewon Kim, <b>Dahee Kim</b>, Song Kim, Susik Yoon, and Junghoon Kim,
-                “Enhancing User Engagement through Network Coreness via Continual Learning”, <b>KDBC 2024</b>.
-              </PubItem>
-              <PubItem>
-                <b>김다희</b>, 김정훈, 임성수. “응집성을 가지는 서브그래프 식별 기술의 최신 연구 동향”, <b>전자공학회지</b>, 50(6), 18-30. (2023).
-                <div className="paperLinks">
-                <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11438469" target="_blank" rel="noreferrer">[Paper]</a>
-                </div>
-              </PubItem>
-            </ol>
+          {lang === "en" ? <PublicationsEN /> : <PublicationsKO />}
         </Section>
 
         <Section id="awards" title="🏆 Awards & Scholarship">
@@ -247,15 +385,7 @@ export default function App() {
         </Section>}
 
         <Section id="teaching" title="✏️ Teaching Assistant">
-          <div className="rows">
-            <RowItem title="AI Novatus 아카데미아 8기 PBL (최우수상), UNIST, Republic of Korea" meta="2025 Sep. ~ 2025 Nov."/>
-            <RowItem title="LG 전자 LDC 3기 PBL, UNIST (최우수상), Republic of Korea" meta="2025 July ~ 2025 August"/>
-            <RowItem title="Intro to Algorithm [CSE331], UNIST, Republic of Korea" meta="2025 Spring" />
-            <RowItem title="Database System [CSE321], UNIST, Republic of Korea" meta="2024 Fall" />
-            <RowItem title="Introduction to Data Mining [CSE304], UNIST, Republic of Korea" meta="2024 Spring" />
-            <RowItem title="COOP Biomarker Discovery, UNIST, Republic of Korea" meta="2023 Dec. ~ 2024 Feb." />
-            <RowItem title="Data Structure [CSE221], UNIST, Republic of Korea" meta="2023 Fall" />
-          </div>
+          {lang === "en" ? <TeachingEN /> : <TeachingKO />}
         </Section>
 
         <Section id="activities" title="🧐 Academic Activities">
