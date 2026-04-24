@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./styles.css";
 import profile from "./assets/profile.jpg";
 
@@ -250,6 +250,40 @@ const PublicationsKO = () => (
   </>
 );
 
+const AwardsEN = () => (
+  <div className="rows">
+    <RowItem title="Korea Database Conference 2025 Best Paper Award (Bronze)" meta="2025.11.07" />
+    <RowItem title="Korea Database Conference 2025 Best Poster Award" meta="2025.11.07" />
+    <RowItem title="Research Grant for Master’s Students, National Research Foundation of Korea" meta="2024.07.01 ~ 2025.06.30" />
+    <RowItem title="Advanced Course of the Engineering Research Team Program for Female Graduate Students, Korea Foundation for Women in Science, Engineering and Technology" meta="2024.04.01 ~ 2024.10.31" />
+    <RowItem title="Korea Database Conference 2024 Best Paper Award (Silver)" meta="2024.11.01" />
+    <RowItem title="Korea Database Conference 2024 Best Paper Award (Bronze)" meta="2024.11.01" />
+    <RowItem title="Government Scholarship, UNIST, Republic of Korea" meta="2023 Fall ~ Present" />
+    <RowItem title="AI SW Fair Day, 3rd Prize, Dong-A University, Republic of Korea" meta="2021 Dec" />
+    <RowItem title="Academic Advisor Scholarship, Dong-A University, Republic of Korea" meta="2021 Fall" />
+    <RowItem title="Scholarship for academic excellence, Dong-A University, Republic of Korea" meta="2021 Spring" />
+    <RowItem title="Scholarship for academic excellence, Dong-A University, Republic of Korea" meta="2020 Fall" />
+    <RowItem title="Scholarship for academic excellence, Dong-A University, Republic of Korea" meta="2020 Spring" />
+  </div>
+);
+
+const AwardsKO = () => (
+  <div className="rows">
+    <RowItem title="Korea Database Conference 2025 우수 논문상 동상" meta="2025.11.07" />
+    <RowItem title="Korea Database Conference 2025 우수 포스터상" meta="2025.11.07" />
+    <RowItem title="이공분야 학술연구지원사업 (석사과정생연구장려금지원사업), 한국연구재단" meta="2024.07.01 ~ 2025.06.30" />
+    <RowItem title="여대학원생 공학연구팀제 지원사업 심화과정, 한국여성과학기술인육성재단" meta="2024.04.01 ~ 2024.10.31" />
+    <RowItem title="Korea Database Conference 2024 우수 논문상 은상" meta="2024.11.01" />
+    <RowItem title="Korea Database Conference 2024 우수 논문상 동상" meta="2024.11.01" />
+    <RowItem title="Government Scholarship, UNIST, Republic of Korea" meta="2023 Fall ~ Present" />
+    <RowItem title="AI SW Fair Day, 3rd Prize, Dong-A University, Republic of Korea" meta="2021 Dec" />
+    <RowItem title="Academic Advisor Scholarship, Dong-A University, Republic of Korea" meta="2021 Fall" />
+    <RowItem title="Scholarship for academic excellence, Dong-A University, Republic of Korea" meta="2021 Spring" />
+    <RowItem title="Scholarship for academic excellence, Dong-A University, Republic of Korea" meta="2020 Fall" />
+    <RowItem title="Scholarship for academic excellence, Dong-A University, Republic of Korea" meta="2020 Spring" />
+  </div>
+);
+
 const TeachingEN = () => (
   <div className="rows">
     <RowItem title="AI Novatus Academia 8th PBL (Excellence Award), UNIST, Republic of Korea" meta="2025 Sep. ~ 2025 Nov." />
@@ -276,6 +310,17 @@ const TeachingKO = () => (
 
 export default function App() {
   const [lang, setLang] = useState("en");
+
+  useEffect(() => {
+    const container = document.getElementById("mapmyvisitors-container");
+    if (!container) return;
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.id = "mapmyvisitors";
+    script.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=n&d=nf7yO-t9KRUFd0DmGnZ9iFCwdlR91zbUtFFzCUBlCDY&co=0071ad&cmo=ff5353&cmn=a8cc3a";
+    container.appendChild(script);
+    return () => { script.remove(); };
+  }, []);
 
   return (
     <div className="page">
@@ -354,20 +399,7 @@ export default function App() {
         </Section>
 
         <Section id="awards" title="🏆 Awards & Scholarship">
-          <div className="rows">
-            <RowItem title="Korea Database Conference 2025 우수 논문상 동상" meta="2025.11.07" />
-            <RowItem title="Korea Database Conference 2025 우수 포스터상" meta="2025.11.07"/>
-            <RowItem title="이공분야 학술연구지원사업 (석사과정생연구장려금지원사업), 한국연구재단" meta="2024.07.01 ~ 2025.06.30" />
-            <RowItem title="여대학원생 공학연구팀제 지원사업 심화과정, 한국여성과학기술인육성재단" meta="2024.04.01 ~ 2024.10.31" />
-            <RowItem title="Korea Database Conference 2024 우수 논문상 은상" meta="2025.11.01"/>
-            <RowItem title="Korea Database Conference 2024 우수 논문상 동상" meta="2025.11.01"/>
-            <RowItem title="Government Scholarship, UNIST, Republic of Korea" meta="2023 Fall ~ Present" />
-            <RowItem title="AI SW Fair Day, 3rd Prize, Dong-A University, Republic of Korea" meta="2021 Dec" />
-            <RowItem title="Academic Advisor Scholarship, Dong-A University, Republic of Korea" meta="2021 Fall" />
-            <RowItem title="Scholarship for academic excellence, Dong-A University, Republic of Korea" meta="2021 Spring" />
-            <RowItem title="Scholarship for academic excellence, Dong-A University, Republic of Korea" meta="2020 Fall" />
-            <RowItem title="Scholarship for academic excellence, Dong-A University, Republic of Korea" meta="2020 Spring" />
-          </div>
+          {lang === "en" ? <AwardsEN /> : <AwardsKO />}
         </Section>
 
         {lang === "ko" && <Section id="patents" title="💡 Patents">
@@ -413,6 +445,7 @@ export default function App() {
         </Section>
 
         <footer className="footer">
+          <div id="mapmyvisitors-container" style={{ marginBottom: "1rem" }} />
           <span>© {new Date().getFullYear()} Dahee Kim</span>
         </footer>
       </main>
