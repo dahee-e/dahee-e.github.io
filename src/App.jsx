@@ -317,7 +317,7 @@ export default function App() {
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.id = "mapmyvisitors";
-    script.src = "https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=n&d=nf7yO-t9KRUFd0DmGnZ9iFCwdlR91zbUtFFzCUBlCDY&co=0071ad&cmo=ff5353&cmn=a8cc3a";
+    script.src = "https://mapmyvisitors.com/map.js?cl=080808&w=300&t=n&d=nf7yO-t9KRUFd0DmGnZ9iFCwdlR91zbUtFFzCUBlCDY&co=ffffff&cmo=69b700&cmn=cc3a3a&ct=808080";
     container.appendChild(script);
     return () => { script.remove(); };
   }, []);
