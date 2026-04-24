@@ -336,12 +336,16 @@ export default function App() {
           <nav className="nav">
             <a className="navButton" href="#about">About</a>
             <a className="navButton" href="#publications">Publications</a>
-            <button
-              className="langToggle"
-              onClick={() => setLang(lang === "en" ? "ko" : "en")}
-            >
-              {lang === "en" ? "KO" : "EN"}
-            </button>
+            <div className="langSwitch">
+              <button
+                className={`langOption${lang === "en" ? " active" : ""}`}
+                onClick={() => setLang("en")}
+              >EN</button>
+              <button
+                className={`langOption${lang === "ko" ? " active" : ""}`}
+                onClick={() => setLang("ko")}
+              >KO</button>
+            </div>
           </nav>
         </div>
       </header>
