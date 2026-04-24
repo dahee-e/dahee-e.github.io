@@ -63,7 +63,7 @@ const PublicationsEN = () => (
       </PubItem>
       <PubItem>
         Hyewon Kim, Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
-        "When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core", <b>CIKM 2025 (short paper)</b>.
+        "When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core", <b>CIKM 2025</b>.
         <div className="paperLinks">
           <a href="https://dl.acm.org/doi/10.1145/3746252.3760845" target="_blank" rel="noreferrer">[Paper]</a>
           <a href="https://github.com/hwhwkim7/ks-core" target="_blank" rel="noreferrer">[Code]</a>
@@ -87,7 +87,7 @@ const PublicationsEN = () => (
       </PubItem>
       <PubItem>
         <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
-        "Exploring Cohesive Subgraphs in Hypergraphs: The (k,g)-core Approach", <b>CIKM 2023 (short paper)</b>.
+        "Exploring Cohesive Subgraphs in Hypergraphs: The (k,g)-core Approach", <b>CIKM 2023</b>.
         <div className="paperLinks">
           <a href="https://dl.acm.org/doi/10.1145/3583780.3615275" target="_blank" rel="noreferrer">[Paper]</a>
           <a href="https://github.com/dahee-e/kgcore" target="_blank" rel="noreferrer">[Code]</a>
