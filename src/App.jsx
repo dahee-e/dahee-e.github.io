@@ -254,7 +254,7 @@ const AwardsEN = () => (
   <div className="rows">
     <RowItem title="Korea Database Conference 2025 Best Paper Award (Bronze)" meta="2025.11.07" />
     <RowItem title="Korea Database Conference 2025 Best Poster Award" meta="2025.11.07" />
-    <RowItem title="Research Grant for Master’s Students, National Research Foundation of Korea" meta="2024.07.01 ~ 2025.06.30" />
+    <RowItem title="Research scholarship for Master’s Students, National Research Foundation of Korea" meta="2024.07.01 ~ 2025.06.30" />
     <RowItem title="Advanced Course of the Engineering Research Team Program for Female Graduate Students, Korea Foundation for Women in Science, Engineering and Technology" meta="2024.04.01 ~ 2024.10.31" />
     <RowItem title="Korea Database Conference 2024 Best Paper Award (Silver)" meta="2024.11.01" />
     <RowItem title="Korea Database Conference 2024 Best Paper Award (Bronze)" meta="2024.11.01" />
