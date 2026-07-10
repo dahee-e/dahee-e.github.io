@@ -39,7 +39,7 @@ const PublicationsEN = () => (
         </div>
       </PubItem>
       <PubItem>
-        <b>Dahee Kim</b>, Hyewon Kim, Song Kim, Minseok Kim, Junghoon Kim, Yeon-Chang Lee, and Sungsu Lim
+        <b>Dahee Kim</b>, Hyewon Kim, Song Kim, Minseok Kim, Junghoon Kim, Yeon-Chang Lee, and Sungsu Lim,
         "Uncovering High-Order Cohesive Structures: Efficient (k,g)-Core Computation and Decomposition in Hypergraphs", <b>Knowledge-based Systems 2025</b>.
         <div className="paperLinks">
           <a href="https://www.sciencedirect.com/science/article/pii/S0950705125022294?via%3Dihub" target="_blank" rel="noreferrer">[Paper]</a>
@@ -56,7 +56,7 @@ const PublicationsEN = () => (
       </PubItem>
       <PubItem>
         Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
-        "Budgeted Strong Community Search in Heterogeneou Graphs", <b>SIGMOD 2026</b>.
+        "Budgeted Strong Community Search in Heterogeneous Graphs", <b>SIGMOD 2026</b>.
         <div className="paperLinks">
           <a href="https://dl.acm.org/doi/10.1145/3769768" target="_blank" rel="noreferrer">[Paper]</a>
         </div>
@@ -94,30 +94,35 @@ const PublicationsEN = () => (
         </div>
       </PubItem>
     </ol>
+
     <h3 className="pubGroup">Domestic</h3>
     <ol className="pubs">
       <PubItem>
-        Hyeongmin Son, <b>Dahee Kim*</b>, and Junghoon Kim
+        <b>Dahee Kim</b> and Junghoon Kim,
+        "Embedding-Based Community Detection via Structure-Preserving Graph Rewiring", <b>Korea Computer Congress 2026</b>. 🏆 Best Paper Award
+      </PubItem>
+      <PubItem>
+        Hyeongmin Son, <b>Dahee Kim*</b>, and Junghoon Kim,
         "LLAMA: Leiden-LPA Approach for Massive community Analysis", <b>Korean DataBase Conference 2025</b>.
       </PubItem>
       <PubItem>
-        <b>Dahee Kim</b>, Minseok Kim, Hyeongmin Son and Junghoon Kim
+        <b>Dahee Kim</b>, Minseok Kim, Hyeongmin Son and Junghoon Kim,
         "A Trie Framework for Efficient Core Computation in Hypergraphs", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
       </PubItem>
       <PubItem>
-        {'{'}Doyeol Oh, Hyewon Kim{'}'}, <b>Dahee Kim</b>, and Junghoon Kim
+        {'{'}Doyeol Oh, Hyewon Kim{'}'}, <b>Dahee Kim</b>, and Junghoon Kim,
         "Entropy-Guided Adaptive Label Propagation for Location-Aware Graph Clustering", <b>Korean DataBase Conference 2025</b>.
       </PubItem>
       <PubItem>
-        {'{'}Seungchan Choi, Taejoon Han{'}'}, <b>Dahee Kim</b>, Hyewon Kim, Minseok Kim, and Junghoon Kim
+        {'{'}Seungchan Choi, Taejoon Han{'}'}, <b>Dahee Kim</b>, Hyewon Kim, Minseok Kim, and Junghoon Kim,
         "Weighted Structural Similarity for Density-Based Graph Clustering", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
       </PubItem>
       <PubItem>
-        Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim
+        Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
         "Decay-Driven Analysis of Hypergraph Cores: Linking Engagement with Cohesion", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
       </PubItem>
       <PubItem>
-        Taejoon Han, Seungchan Choi, Minseok Kim, Hyewon Kim, <b>Dahee Kim</b> and Junghoon Kim
+        Taejoon Han, Seungchan Choi, Minseok Kim, Hyewon Kim, <b>Dahee Kim</b> and Junghoon Kim,
         "NHSCAN: Node-based Hypergraph SCAN", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
       </PubItem>
       <PubItem>
@@ -148,7 +153,7 @@ const PublicationsKO = () => (
         </div>
       </PubItem>
       <PubItem>
-        <b>Dahee Kim</b>, Hyewon Kim, Song Kim, Minseok Kim, Junghoon Kim, Yeon-Chang Lee, and Sungsu Lim
+        <b>Dahee Kim</b>, Hyewon Kim, Song Kim, Minseok Kim, Junghoon Kim, Yeon-Chang Lee, and Sungsu Lim,
         "Uncovering High-Order Cohesive Structures: Efficient (k,g)-Core Computation and Decomposition in Hypergraphs", <b>Knowledge-based Systems 2025</b>.
         <div className="paperLinks">
           <a href="https://www.sciencedirect.com/science/article/pii/S0950705125022294?via%3Dihub" target="_blank" rel="noreferrer">[Paper]</a>
@@ -165,7 +170,7 @@ const PublicationsKO = () => (
       </PubItem>
       <PubItem>
         Wentong Zhang, Feng Kaiyu, Lanting Fang, Junghoon Kim, Kaibo Zhang, <b>Dahee Kim</b>, Shuliang Wang, Ye Yuan, Guoren Wang,
-        "Budgeted Strong Community Search in Heterogeneou Graphs", <b>SIGMOD 2026</b>.
+        "Budgeted Strong Community Search in Heterogeneous Graphs", <b>SIGMOD 2026</b>.
         <div className="paperLinks">
           <a href="https://dl.acm.org/doi/10.1145/3769768" target="_blank" rel="noreferrer">[Paper]</a>
         </div>
@@ -203,30 +208,35 @@ const PublicationsKO = () => (
         </div>
       </PubItem>
     </ol>
+
     <h3 className="pubGroup">Domestic</h3>
     <ol className="pubs">
       <PubItem>
-        Hyeongmin Son, <b>Dahee Kim*</b>, and Junghoon Kim
+        <b>Dahee Kim</b> and Junghoon Kim,
+        "구조 보존형 그래프 재배선을 통한 임베딩 기반 커뮤니티 탐지", <b>Korea Computer Congress 2026</b>. 🏆 우수논문상
+      </PubItem>
+      <PubItem>
+        Hyeongmin Son, <b>Dahee Kim*</b>, and Junghoon Kim,
         "LLAMA: Leiden-LPA 기반 대규모 커뮤니티 분석", <b>Korean DataBase Conference 2025</b>.
       </PubItem>
       <PubItem>
-        <b>Dahee Kim</b>, Minseok Kim, Hyeongmin Son and Junghoon Kim
+        <b>Dahee Kim</b>, Minseok Kim, Hyeongmin Son and Junghoon Kim,
         "A Trie Framework for Efficient Core Computation in Hypergraphs", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
       </PubItem>
       <PubItem>
-        {'{'}Doyeol Oh, Hyewon Kim{'}'}, <b>Dahee Kim</b>, and Junghoon Kim
+        {'{'}Doyeol Oh, Hyewon Kim{'}'}, <b>Dahee Kim</b>, and Junghoon Kim,
         "위치 기반 소셜 네트워크에서 공간 근접 커뮤니티 탐지를 위한 엔트로피 가중 적응형 라벨 전파 알고리즘", <b>Korean DataBase Conference 2025</b>.
       </PubItem>
       <PubItem>
-        {'{'}Seungchan Choi, Taejoon Han{'}'}, <b>Dahee Kim</b>, Hyewon Kim, Minseok Kim, and Junghoon Kim
+        {'{'}Seungchan Choi, Taejoon Han{'}'}, <b>Dahee Kim</b>, Hyewon Kim, Minseok Kim, and Junghoon Kim,
         "Weighted Structural Similarity for Density-Based Graph Clustering", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
       </PubItem>
       <PubItem>
-        Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim
+        Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
         "Decay-Driven Analysis of Hypergraph Cores: Linking Engagement with Cohesion", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
       </PubItem>
       <PubItem>
-        Taejoon Han, Seungchan Choi, Minseok Kim, Hyewon Kim, <b>Dahee Kim</b> and Junghoon Kim
+        Taejoon Han, Seungchan Choi, Minseok Kim, Hyewon Kim, <b>Dahee Kim</b> and Junghoon Kim,
         "NHSCAN: Node-based Hypergraph SCAN", <b>Korean DataBase Conference 2025 (WiP Track)</b>.
       </PubItem>
       <PubItem>
@@ -252,9 +262,11 @@ const PublicationsKO = () => (
 
 const AwardsEN = () => (
   <div className="rows">
+    <RowItem title="DASFAA 2026 Travel Grant Awardee" meta="2026" />
+    <RowItem title="Korea Computer Congress (KCC) 2026 Best Paper Award" meta="2026" />
     <RowItem title="Korea Database Conference 2025 Best Paper Award (Bronze)" meta="2025.11.07" />
     <RowItem title="Korea Database Conference 2025 Best Poster Award" meta="2025.11.07" />
-    <RowItem title="Research scholarship for Master’s Students, National Research Foundation of Korea" meta="2024.07.01 ~ 2025.06.30" />
+    <RowItem title="Research scholarship for Master's Students, National Research Foundation of Korea" meta="2024.07.01 ~ 2025.06.30" />
     <RowItem title="Advanced Course of the Engineering Research Team Program for Female Graduate Students, Korea Foundation for Women in Science, Engineering and Technology" meta="2024.04.01 ~ 2024.10.31" />
     <RowItem title="Korea Database Conference 2024 Best Paper Award (Silver)" meta="2024.11.01" />
     <RowItem title="Korea Database Conference 2024 Best Paper Award (Bronze)" meta="2024.11.01" />
@@ -269,6 +281,8 @@ const AwardsEN = () => (
 
 const AwardsKO = () => (
   <div className="rows">
+    <RowItem title="DASFAA 2026 Travel Grant Awardee" meta="2026" />
+    <RowItem title="Korea Computer Congress (KCC) 2026 우수논문상" meta="2026" />
     <RowItem title="Korea Database Conference 2025 우수 논문상 동상" meta="2025.11.07" />
     <RowItem title="Korea Database Conference 2025 우수 포스터상" meta="2025.11.07" />
     <RowItem title="이공분야 학술연구지원사업 (석사과정생연구장려금지원사업), 한국연구재단" meta="2024.07.01 ~ 2025.06.30" />
@@ -385,18 +399,9 @@ export default function App() {
                 <div className="profileRole">Integrated M.S./Ph.D · UNIST CSE</div>
                 <div className="profileLab">Data Mining Lab (Prof. Junghoon Kim)</div>
               </div>
-
-              {/* <div className="profileLinks">
-                <a href="mailto:dahee@unist.ac.kr">Email</a>
-                <span>·</span>
-                <a href="https://github.com/dahee-e" target="_blank" rel="noreferrer">GitHub</a>
-                <span>·</span>
-                <a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Scholar</a>
-              </div> */}
             </div>
           </div>
         </section>
-
 
         <Section id="publications" title="📑 Publications">
           {lang === "en" ? <PublicationsEN /> : <PublicationsKO />}
@@ -406,19 +411,21 @@ export default function App() {
           {lang === "en" ? <AwardsEN /> : <AwardsKO />}
         </Section>
 
-        {lang === "ko" && <Section id="patents" title="💡 Patents">
-          <div className="rows">
-            <RowItem title="접두사 트리에 기초하여 하이퍼그래프에서 코어를 식별하기 위한 방법 및 전자 장치" meta="10-2026-0048905 · 2026.03.18" sub="김정훈, 김다희" />
-            <RowItem title="엔트로피 가중 적응형 라벨 전파 기반의 공간 근접 커뮤니티 탐지 시스템 및 방법" meta="10-2026-0027653 · 2026.02.11" sub="김정훈, 김혜원, 오도열, 김다희" />
-            <RowItem title="하이브리드 방식에 기초한 대규모 네트워크 커뮤니티 탐지 방법 및 이를 지원하는 시스템" meta="10-2026-0009036 · 2026.01.16" sub="김정훈, 김다희, 손형민" />
-            <RowItem title="가중 구조 유사도에 기반한 네트워크 클러스터링 시스템 및 방법" meta="10-2026-0004498 · 2026.01.09" sub="김정훈, 한태준, 최승찬, 김다희, 김혜원" />
-            <RowItem title="하이퍼그래프에서 응집력 있는 부분 그래프를 탐색하는 방법 및 장치" meta="10-2025-0193293 · 2025.12.08" sub="김정훈, 김혜원, 김민석, 김다희" />
-            <RowItem title="올리비아-리치 곡률과 모듈러리티 기반의 커뮤니티 탐지를 위한 방법 및 장치" meta="10-2025-0034070 · 2025.03.17" sub="김정훈, 김다희, 김혜원, 한태준" />
-            <RowItem title="유저 참여도를 강화하기 위해 네트워크를 트레이닝하는 방법 및 장치" meta="10-2025-0045472 · 2025.04.08" sub="김정훈, 김혜원, 김다희, 김송, 윤수식" />
-            <RowItem title="하이퍼 그래프의 서브 그래프 식별 방법 및 장치" meta="10-2025-0075876 · 2025.06.10" sub="김정훈, 김다희, 임성수, 정현지" />
-            <RowItem title="하이퍼 그래프에서 응집력 있는 서브그래프 검출을 위한 데이터 분석 시스템 및 방법" meta="10-2025-0107601 · 2025.08.05" sub="김정훈, 김혜원, 신우철, 김다희, 정현지" />
-          </div>
-        </Section>}
+        {lang === "ko" && (
+          <Section id="patents" title="💡 Patents">
+            <div className="rows">
+              <RowItem title="접두사 트리에 기초하여 하이퍼그래프에서 코어를 식별하기 위한 방법 및 전자 장치" meta="10-2026-0048905 · 2026.03.18" sub="김정훈, 김다희" />
+              <RowItem title="엔트로피 가중 적응형 라벨 전파 기반의 공간 근접 커뮤니티 탐지 시스템 및 방법" meta="10-2026-0027653 · 2026.02.11" sub="김정훈, 김혜원, 오도열, 김다희" />
+              <RowItem title="하이브리드 방식에 기초한 대규모 네트워크 커뮤니티 탐지 방법 및 이를 지원하는 시스템" meta="10-2026-0009036 · 2026.01.16" sub="김정훈, 김다희, 손형민" />
+              <RowItem title="가중 구조 유사도에 기반한 네트워크 클러스터링 시스템 및 방법" meta="10-2026-0004498 · 2026.01.09" sub="김정훈, 한태준, 최승찬, 김다희, 김혜원" />
+              <RowItem title="하이퍼그래프에서 응집력 있는 부분 그래프를 탐색하는 방법 및 장치" meta="10-2025-0193293 · 2025.12.08" sub="김정훈, 김혜원, 김민석, 김다희" />
+              <RowItem title="올리비아-리치 곡률과 모듈러리티 기반의 커뮤니티 탐지를 위한 방법 및 장치" meta="10-2025-0034070 · 2025.03.17" sub="김정훈, 김다희, 김혜원, 한태준" />
+              <RowItem title="유저 참여도를 강화하기 위해 네트워크를 트레이닝하는 방법 및 장치" meta="10-2025-0045472 · 2025.04.08" sub="김정훈, 김혜원, 김다희, 김송, 윤수식" />
+              <RowItem title="하이퍼 그래프의 서브 그래프 식별 방법 및 장치" meta="10-2025-0075876 · 2025.06.10" sub="김정훈, 김다희, 임성수, 정현지" />
+              <RowItem title="하이퍼 그래프에서 응집력 있는 서브그래프 검출을 위한 데이터 분석 시스템 및 방법" meta="10-2025-0107601 · 2025.08.05" sub="김정훈, 김혜원, 신우철, 김다희, 정현지" />
+            </div>
+          </Section>
+        )}
 
         <Section id="teaching" title="✏️ Teaching Assistant">
           {lang === "en" ? <TeachingEN /> : <TeachingKO />}
@@ -429,7 +436,9 @@ export default function App() {
             <RowItem title="Reviewer, Bigcomp" meta="2025" />
             <RowItem title="Reviewer, WWW Journal" meta="2026" />
             <RowItem title="PC member, CIKM (Applied Research Track)" meta="2025" />
-            <RowItem title="PC member, CIKM" meta="2026" />
+            <RowItem title="PC member, CIKM (Regular Paper)" meta="2026" />
+            <RowItem title="PC member, ICDM (Regular Paper)" meta="2026" />
+            <RowItem title="PC member, DASFAA" meta="2027" />
           </div>
         </Section>
 
