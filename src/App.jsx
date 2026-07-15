@@ -349,7 +349,9 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const headerOffset = 96;
+    const zoneTop = 96;
+    const zoneHeight = 400;
+    const zoneBottom = zoneTop + zoneHeight;
 
     const handleScroll = () => {
       const sections = NAV_ITEMS
@@ -358,8 +360,12 @@ export default function App() {
       if (!sections.length) return;
 
       let current = sections[0].id;
+      let bestOverlap = -Infinity;
       for (const section of sections) {
-        if (section.getBoundingClientRect().top <= headerOffset) {
+        const rect = section.getBoundingClientRect();
+        const overlap = Math.min(rect.bottom, zoneBottom) - Math.max(rect.top, zoneTop);
+        if (overlap > bestOverlap) {
+          bestOverlap = overlap;
           current = section.id;
         }
       }
