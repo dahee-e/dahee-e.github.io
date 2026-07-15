@@ -14,6 +14,15 @@ const Section = ({ id, title, children }) => (
   </section>
 );
 
+const NAV_ITEMS = [
+  { id: "about", label: "About" },
+  { id: "publications", label: "Publications" },
+  { id: "awards", label: "Awards" },
+  { id: "teaching", label: "Teaching" },
+  { id: "education", label: "Education" },
+  { id: "experience", label: "Experience" },
+];
+
 const RowItem = ({ title, meta, sub }) => (
   <div className="rowItem">
     <div className="rowTop">
@@ -63,7 +72,7 @@ const PublicationsEN = () => (
       </PubItem>
       <PubItem>
         Hyewon Kim, Minseok Kim, <b>Dahee Kim</b>, and Junghoon Kim,
-        "When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core", <b>CIKM 2025</b>.
+        "When User Engagement Meets Structural Cohesiveness: A Decay-Driven Approach to Hypergraph Core", <b>CIKM 2025 (short paper)</b>.
         <div className="paperLinks">
           <a href="https://dl.acm.org/doi/10.1145/3746252.3760845" target="_blank" rel="noreferrer">[Paper]</a>
           <a href="https://github.com/hwhwkim7/ks-core" target="_blank" rel="noreferrer">[Code]</a>
@@ -87,7 +96,7 @@ const PublicationsEN = () => (
       </PubItem>
       <PubItem>
         <b>Dahee Kim</b>, Junghoon Kim, Sungsu Lim, and Hyun Ji Jeong,
-        "Exploring Cohesive Subgraphs in Hypergraphs: The (k,g)-core Approach", <b>CIKM 2023</b>.
+        "Exploring Cohesive Subgraphs in Hypergraphs: The (k,g)-core Approach", <b>CIKM 2023 (short paper)</b>.
         <div className="paperLinks">
           <a href="https://dl.acm.org/doi/10.1145/3583780.3615275" target="_blank" rel="noreferrer">[Paper]</a>
           <a href="https://github.com/dahee-e/kgcore" target="_blank" rel="noreferrer">[Code]</a>
@@ -99,7 +108,7 @@ const PublicationsEN = () => (
     <ol className="pubs">
       <PubItem>
         <b>Dahee Kim</b> and Junghoon Kim,
-        "Embedding-Based Community Detection via Structure-Preserving Graph Rewiring", <b>Korea Computer Congress 2026</b>. 🏆 Best Paper Award
+        "Embedding-Based Community Detection via Structure-Preserving Graph Rewiring", <b>Korea Computer Congress 2026</b>.
       </PubItem>
       <PubItem>
         Hyeongmin Son, <b>Dahee Kim*</b>, and Junghoon Kim,
@@ -213,7 +222,7 @@ const PublicationsKO = () => (
     <ol className="pubs">
       <PubItem>
         <b>Dahee Kim</b> and Junghoon Kim,
-        "구조 보존형 그래프 재배선을 통한 임베딩 기반 커뮤니티 탐지", <b>Korea Computer Congress 2026</b>. 🏆 우수논문상
+        "구조 보존형 그래프 재배선을 통한 임베딩 기반 커뮤니티 탐지", <b>Korea Computer Congress 2026</b>.
       </PubItem>
       <PubItem>
         Hyeongmin Son, <b>Dahee Kim*</b>, and Junghoon Kim,
@@ -263,7 +272,7 @@ const PublicationsKO = () => (
 const AwardsEN = () => (
   <div className="rows">
     <RowItem title="DASFAA 2026 Travel Grant Awardee" meta="2026" />
-    <RowItem title="Korea Computer Congress (KCC) 2026 Best Paper Award" meta="2026" />
+    <RowItem title="Korea Computer Congress 2026 Best Paper Award" meta="2026.06.25" />
     <RowItem title="Korea Database Conference 2025 Best Paper Award (Bronze)" meta="2025.11.07" />
     <RowItem title="Korea Database Conference 2025 Best Poster Award" meta="2025.11.07" />
     <RowItem title="Research scholarship for Master's Students, National Research Foundation of Korea" meta="2024.07.01 ~ 2025.06.30" />
@@ -282,7 +291,7 @@ const AwardsEN = () => (
 const AwardsKO = () => (
   <div className="rows">
     <RowItem title="DASFAA 2026 Travel Grant Awardee" meta="2026" />
-    <RowItem title="Korea Computer Congress (KCC) 2026 우수논문상" meta="2026" />
+    <RowItem title="Korea Computer Congress 2026 우수 논문상" meta="2026.06.25" />
     <RowItem title="Korea Database Conference 2025 우수 논문상 동상" meta="2025.11.07" />
     <RowItem title="Korea Database Conference 2025 우수 포스터상" meta="2025.11.07" />
     <RowItem title="이공분야 학술연구지원사업 (석사과정생연구장려금지원사업), 한국연구재단" meta="2024.07.01 ~ 2025.06.30" />
@@ -300,6 +309,7 @@ const AwardsKO = () => (
 
 const TeachingEN = () => (
   <div className="rows">
+    <RowItem title="Database System [CSE321], UNIST, Republic of Korea" meta="2026 Spring" />
     <RowItem title="AI Novatus Academia 8th PBL (Excellence Award), UNIST, Republic of Korea" meta="2025 Sep. ~ 2025 Nov." />
     <RowItem title="LG Electronics LDC 3rd PBL, UNIST (Excellence Award), Republic of Korea" meta="2025 July ~ 2025 August" />
     <RowItem title="Intro to Algorithm [CSE331], UNIST, Republic of Korea" meta="2025 Spring" />
@@ -312,6 +322,7 @@ const TeachingEN = () => (
 
 const TeachingKO = () => (
   <div className="rows">
+    <RowItem title="Database System [CSE321], UNIST, Republic of Korea" meta="2026 Spring" />
     <RowItem title="AI Novatus 아카데미아 8기 PBL (최우수상), UNIST, Republic of Korea" meta="2025 Sep. ~ 2025 Nov." />
     <RowItem title="LG 전자 LDC 3기 PBL, UNIST (최우수상), Republic of Korea" meta="2025 July ~ 2025 August" />
     <RowItem title="Intro to Algorithm [CSE331], UNIST, Republic of Korea" meta="2025 Spring" />
@@ -324,6 +335,7 @@ const TeachingKO = () => (
 
 export default function App() {
   const [lang, setLang] = useState("en");
+  const [activeSection, setActiveSection] = useState("about");
 
   useEffect(() => {
     const container = document.getElementById("mapmyvisitors-container");
@@ -336,36 +348,62 @@ export default function App() {
     return () => { script.remove(); };
   }, []);
 
+  useEffect(() => {
+    const headerOffset = 96;
+
+    const handleScroll = () => {
+      const sections = NAV_ITEMS
+        .map(({ id }) => document.getElementById(id))
+        .filter(Boolean);
+      if (!sections.length) return;
+
+      let current = sections[0].id;
+      for (const section of sections) {
+        if (section.getBoundingClientRect().top <= headerOffset) {
+          current = section.id;
+        }
+      }
+      setActiveSection(current);
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("resize", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="page">
       <header className="topbar">
         <div className="container topbarInner">
-          <div className="brand">
-            <div className="brandName">Dahee Kim</div>
-            <div className="brandSub">
-              Integrated M.S./Ph.D · UNIST CSE · Data Mining Lab
-            </div>
-          </div>
-
-          <nav className="nav">
-            <a className="navButton" href="#about">About</a>
-            <a className="navButton" href="#publications">Publications</a>
-            <div className="langSwitch">
-              <button
-                className={`langOption${lang === "en" ? " active" : ""}`}
-                onClick={() => setLang("en")}
-              >EN</button>
-              <button
-                className={`langOption${lang === "ko" ? " active" : ""}`}
-                onClick={() => setLang("ko")}
-              >KO</button>
-            </div>
+          <nav className="tabNav">
+            {NAV_ITEMS.map(({ id, label }) => (
+              <a
+                key={id}
+                className={`tabLink${activeSection === id ? " active" : ""}`}
+                href={`#${id}`}
+              >{label}</a>
+            ))}
           </nav>
+
+          <div className="langSwitch">
+            <button
+              className={`langOption${lang === "en" ? " active" : ""}`}
+              onClick={() => setLang("en")}
+            >EN</button>
+            <button
+              className={`langOption${lang === "ko" ? " active" : ""}`}
+              onClick={() => setLang("ko")}
+            >KO</button>
+          </div>
         </div>
       </header>
 
       <main className="container main">
-        <section className="hero">
+        <section id="about" className="hero">
           <div className="heroLeft">
             <h1 className="heroName">Dahee Kim</h1>
             <p className="heroLead">
@@ -392,14 +430,7 @@ export default function App() {
           </div>
 
           <div className="heroRight">
-            <div className="profileCard">
-              <img className="avatar" src={profile} alt="Dahee Kim" />
-              <div className="profileMeta">
-                <div className="profileName">Dahee Kim</div>
-                <div className="profileRole">Integrated M.S./Ph.D · UNIST CSE</div>
-                <div className="profileLab">Data Mining Lab (Prof. Junghoon Kim)</div>
-              </div>
-            </div>
+            <img className="avatar" src={profile} alt="Dahee Kim" />
           </div>
         </section>
 

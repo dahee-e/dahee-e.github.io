@@ -47,47 +47,29 @@ a:hover{ text-decoration: underline; }
   justify-content:space-between;
   padding: 14px 0;
 }
-.brandName{
-  font-weight: 800;
-  letter-spacing: .2px;
-}
-.brandSub{
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  color: var(--muted);
-  font-size: 13px;
-  margin-top: 2px;
-}
 
 /* Nav */
-.nav{
+.tabNav{
   display:flex;
-  flex-wrap:wrap;
-  gap: 10px;
-  justify-content:flex-end;
+  flex-wrap: wrap;
+  gap: 8px 20px;
 }
-.nav a{
+.tabLink{
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  font-size: 13px;
-  color: #374151;
-  padding: 6px 10px;
-  border-radius: 8px;
-  transition: background .15s ease;
-}
-.nav a:hover{
-  background: #f3f4f6;
-  text-decoration: none;
-}
-.navButton{
+  font-size: 14px;
   font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 8px;
-  border: 1px solid #e5e7eb;
-  background: #ffffff;
-  transition: background .15s ease;
+  color: #6b7280;
+  padding: 6px 2px;
+  border-bottom: 2px solid transparent;
+  transition: color .15s ease, border-color .15s ease;
 }
-.navButton:hover{
-  background: #f3f4f6;
+.tabLink:hover{
+  color: #374151;
   text-decoration: none;
+}
+.tabLink.active{
+  color: var(--text);
+  border-bottom-color: var(--accent);
 }
 .langSwitch{
   display: flex;
@@ -163,7 +145,8 @@ a:hover{ text-decoration: underline; }
 }
 .heroRight{
   display:flex;
-  align-items: stretch;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Sections */
@@ -251,20 +234,7 @@ a:hover{ text-decoration: underline; }
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
 }
 
-/* Profile Card */
-.profileCard{
-  width: 100%;
-  border-radius: 16px;
-  border: 1px solid var(--line);
-  background: var(--panel);
-  box-shadow: var(--shadow);
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: center;
-  text-align: center;
-}
+/* Profile photo */
 .avatar{
   width: 100%;
   max-width: 260px;
@@ -272,21 +242,7 @@ a:hover{ text-decoration: underline; }
   object-fit: cover;
   border-radius: 18px;
   border: 1px solid var(--line);
-}
-.profileMeta{
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-.profileName{
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  font-weight: 900;
-  font-size: 16px;
-}
-.profileRole, .profileLab{
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  color: var(--muted);
-  font-size: 13px;
+  box-shadow: var(--shadow);
 }
 
 /* Chips */
