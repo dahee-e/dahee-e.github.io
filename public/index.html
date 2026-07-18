@@ -123,7 +123,14 @@ const NAV = [
   { id:"education", label:"Education" },
   { id:"experience", label:"Experience" }
 ];
-const state = { lang: "en", active: "about", dark: !!DATA.startDark };
+function initialDark(){
+  const mode = DATA.darkMode || "manual";
+  if(mode==="system"){ return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches; }
+  if(mode==="time"){ const h=new Date().getHours(); const f=DATA.darkFrom??19, t=DATA.darkTo??7; return f<=t ? (h>=f&&h<t) : (h>=f||h<t); }
+  return !!DATA.startDark;
+}
+const state = { lang: "en", active: "about", dark: initialDark(), userSet: false };
+if(window.matchMedia){ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", e=>{ if((DATA.darkMode||"manual")==="system" && !state.userSet){ state.dark=e.matches; render(); } }); }
 
 function segAuthors(str){
   const parts = String(str).split(/(Dahee Kim\*|Dahee Kim|김다희)/g).filter(p=>p!=="");
@@ -191,7 +198,7 @@ function render(){
     if(el) window.scrollTo({top: el.getBoundingClientRect().top+window.scrollY-70, behavior:"smooth"});
   });
   app.querySelectorAll("[data-lang]").forEach(b=>b.onclick=()=>{ state.lang=b.getAttribute("data-lang"); render(); });
-  document.getElementById("nightbtn").onclick=()=>{ state.dark=!state.dark; render(); };
+  document.getElementById("nightbtn").onclick=()=>{ state.dark=!state.dark; state.userSet=true; render(); };
   startGraph();
 }
 

@@ -13,7 +13,10 @@ window.DATA = {
   bigName: "Dahee Kim",              // 첫 화면 큰 이름
   nameSize: "clamp(40px, 7vw, 88px)", // 첫 화면 이름 크기 (숫자를 줄이면 이름이 작아짐)
   keywords: ["Community Search", "Cohesive Subgraphs", "Hypergraph Mining", "Graph Algorithms"], // 첫 화면 그래프 키워드 (4개)
-  startDark: false,                  // true 로 바꾸면 처음부터 다크모드
+  startDark: false,                  // (아래 darkMode 가 "manual" 일 때만 사용) 처음 다크모드 여부
+  darkMode: "system",                // 다크모드 방식: "system"(사용자 시스템 설정), "time"(밤엔 자동 다크), "manual"(startDark 값 고정)
+  darkFrom: 19,                      // "time" 모드일 때 다크 시작 시각 (24시간, 예: 19 = 오후 7시)
+  darkTo: 7,                         // "time" 모드일 때 다크 종료 시각 (예: 7 = 오전 7시)
 
   // ---- About 소개글 (HTML <b>태그</b> 사용 가능) ----
   aboutLead: "I am an Integrated M.S./Ph.D student at <b>UNIST Computer Science and Engineering</b>, in the Data Mining Lab led by Prof. Junghoon Kim. My research explores <b>Graph Mining</b>, <b>Community Search</b>, and <b>Cohesive Subgraph Discovery</b>. I completed my Bachelor's degree at Dong-A University (Computer Engineering).",
