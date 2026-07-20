@@ -45,7 +45,7 @@ pubIntl: [
     ],
     pubDomEN: [
       { authors: 'Dahee Kim and Junghoon Kim,', title: 'Embedding-Based Community Detection via Structure-Preserving Graph Rewiring', venue: 'Korea Computer Congress 2026', links: [] },
-      { authors: 'Hyeongmin Son, Dahee Kim*, and Junghoon Kim,', title: 'LLAMA: Leiden-LPA Approach for Massive community Analysis', venue: 'Korean DataBase Conference 2025', links: [] },
+      { authors: 'Hyeongmin Son, Dahee Kim*, and Junghoon Kim*,', title: 'LLAMA: Leiden-LPA Approach for Massive community Analysis', venue: 'Korean DataBase Conference 2025', links: [] },
       { authors: 'Dahee Kim, Minseok Kim, Hyeongmin Son and Junghoon Kim,', title: 'A Trie Framework for Efficient Core Computation in Hypergraphs', venue: 'Korean DataBase Conference 2025 (WiP Track)', links: [] },
       { authors: '{Doyeol Oh, Hyewon Kim}, Dahee Kim, and Junghoon Kim,', title: 'Entropy-Guided Adaptive Label Propagation for Location-Aware Graph Clustering', venue: 'Korean DataBase Conference 2025', links: [] },
       { authors: '{Seungchan Choi, Taejoon Han}, Dahee Kim, Hyewon Kim, Minseok Kim, and Junghoon Kim,', title: 'Weighted Structural Similarity for Density-Based Graph Clustering', venue: 'Korean DataBase Conference 2025 (WiP Track)', links: [] },
