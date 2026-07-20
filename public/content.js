@@ -30,7 +30,7 @@ window.DATA = {
   ],
 
   // ---- 프로필 사진 (data URI) ----
-  profile: "./src/assets/profile.jpg",
+  profile: "./profile.jpg",
   // ---- 아래부터는 각 섹션 내용 (배열에 항목 추가/삭제) ----
 pubIntl: [
       { authors: 'Dahee Kim, Taejoon Han, Feng Kaiyu, Junghoon Kim, and Susik Yoon,', title: 'LMSC: Local Sketch Modularity Optimisation for Size-Constrained Community Search in Networks', venue: 'SIGMOD 2026', links: [{ label: '[Paper]', href: 'https://dl.acm.org/doi/10.1145/3786666' }, { label: '[Code]', href: 'https://github.com/dahee-e/LMSC' }] },
